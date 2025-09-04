@@ -62,17 +62,17 @@
                 "Tee",
                 "Tee Street",
                 "Tap Tee",
-                "2 x 1- 1/2\" Tee",
-                "2 x 1- 1/2 x 1- 1/2\" Tee",
-                "2 x 1- 1/2 x 2\" Tee"
+                "2 x 1-1/2\" Tee",
+                "2 x 1-1/2 x 1-1/2\" Tee",
+                "2 x 1-1/2 x 2\" Tee"
             ],
             "Wyes": [
                 "Wye",
-                "2 x 1- 1/2\" Wye"
+                "2 x 1-1/2\" Wye"
             ],
             "Combos": [
                 "Combo",
-                "2 x 1- 1/2\" Combo"
+                "2 x 1-1/2\" Combo"
             ],
             "Caps": [
                 "Test Cap",
@@ -81,10 +81,10 @@
             ],
             "Partition Crosses": [
                 "P- Cross",
-                "2 x 1- 1/2\" P- Cross"
+                "2 x 1-1/2\" P-Cross"
             ],
             "Items": [
-                "2 x 1- 1/2\" Bushing",
+                "2 x 1-1/2\" Bushing",
                 "Trap",
                 "Coupling"
             ]
@@ -129,8 +129,8 @@
                 "Tap Tee Plug"
             ],
             "Partition Crosses": [
-                "P- Cross",
-                "3 x 2\" P- Cross"
+                "P-Cross",
+                "3 x 2\" P-Cross"
             ],
             "Items": [
                 "Trap",
@@ -183,9 +183,9 @@
                 "4 x 2\" Bushing"
             ],
             "Partition Crosses": [
-                "P- Cross",
-                "4 x 3\" P- Cross",
-                "4 x 2\" P- Cross"
+                "P-Cross",
+                "4 x 3\" P-Cross",
+                "4 x 2\" P-Cross"
             ],
             "Items": [
                 "Trap",
@@ -481,17 +481,17 @@
                 "Tee",
                 "Tee Street",
                 "Tap Tee",
-                "2 x 1- 1/2\" Tee",
-                "2 x 1- 1/2 x 1- 1/2\" Tee",
-                "2 x 1- 1/2 x 2\" Tee"
+                "2 x 1-1/2\" Tee",
+                "2 x 1-1/2 x 1-1/2\" Tee",
+                "2 x 1-1/2 x 2\" Tee"
             ],
             "Wyes": [
                 "Wye",
-                "2 x 1- 1/2\" Wye"
+                "2 x 1-1/2\" Wye"
             ],
             "Combos": [
                 "Combo",
-                "2 x 1- 1/2\" Combo"
+                "2 x 1-1/2\" Combo"
             ],
             "Caps": [
                 "Test Cap",
@@ -499,11 +499,11 @@
                 "Tap Tee Plug"
             ],
             "Partition Crosses": [
-                "P- Cross",
-                "2 x 1- 1/2\" P- Cross"
+                "P-Cross",
+                "2 x 1-1/2\" P-Cross"
             ],
             "Items": [
-                "2 x 1- 1/2\" Bushing",
+                "2 x 1-1/2\" Bushing",
                 "Trap",
                 "Coupling"
             ]
@@ -548,8 +548,8 @@
                 "Tap Tee Plug"
             ],
             "Partition Crosses": [
-                "P- Cross",
-                "3 x 2\" P- Cross"
+                "P-Cross",
+                "3 x 2\" P-Cross"
             ],
             "Items": [
                 "Trap",
@@ -602,9 +602,9 @@
                 "4 x 2\" Bushing"
             ],
             "Partition Crosses": [
-                "P- Cross",
-                "4 x 3\" P- Cross",
-                "4 x 2\" P- Cross"
+                "P-Cross",
+                "4 x 3\" P-Cross",
+                "4 x 2\" P-Cross"
             ],
             "Items": [
                 "Trap",

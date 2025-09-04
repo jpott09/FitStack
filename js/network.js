@@ -1,13 +1,11 @@
 export class Network{
-    static async jsonRequest(url){
-        console.log(`Network.jsonRequest(url) sending request to ${url}`);
-        try{
-            const response = await fetch(url)
-            if(!response.ok) throw new Error(`HTTP ${response.status}`);
-            return await response.json();
-        } catch(err){
-            console.error(err);
-            return null;
-        }
+    static async jsonRequest(path){
+        // guard against accidental leading slash
+        const rel = path.replace(/^\//, "");
+        const url = new URL(rel, document.baseURI);  // resolves against the page
+        console.log("Network.jsonRequest ->", url.toString());
+        const r = await fetch(url.toString(), { cache: "no-store" });
+        if (!r.ok) throw new Error(`HTTP ${r.status}`);
+        return r.json();
     }
 }

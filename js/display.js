@@ -84,6 +84,11 @@ export class Display{
                     // insert category but only if the category name is not already present
                     if(!displayName.includes(this.dataManager.getCategoryName())){
                         displayName = `${lastSize} ${this.dataManager.getCategoryName()} ${item}`;
+                    }else{
+                        // we still add the size if its not already present
+                        if(!displayName.includes(lastSize)){
+                            displayName = `${lastSize} ${displayName}`;
+                        }
                     }
                 }
                 else{

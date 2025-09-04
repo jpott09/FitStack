@@ -9,7 +9,7 @@ A simple static web app for browsing plumbing fittings and materials, making ite
 - Share lists with others
 
 ## Usage
-Open `index.html` in a browser or host the project (e.g., GitHub Pages) to use.
+Open `index.html` in a browser or visit https://jpott09.github.io/FitStack to view
 
 ## Development
 - Data is stored in YAML/JSON format

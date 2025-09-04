@@ -2,9 +2,9 @@
     "ABS": {
         "1-1/2\"": {
             "Pipe": [
-                "PVC Solid Core Pipe",
-                "PVC Cellular Core Pipe",
-                "PVC Pipe"
+                "ABS Solid Core Pipe",
+                "ABS Cellular Core Pipe",
+                "ABS Pipe"
             ],
             "90s": [
                 "90m",
@@ -41,9 +41,9 @@
         },
         "2\"": {
             "Pipe": [
-                "PVC Solid Core Pipe",
-                "PVC Cellular Core Pipe",
-                "PVC Pipe"
+                "ABS Solid Core Pipe",
+                "ABS Cellular Core Pipe",
+                "ABS Pipe"
             ],
             "90s": [
                 "90m",
@@ -91,9 +91,9 @@
         },
         "3\"": {
             "Pipe": [
-                "PVC Solid Core Pipe",
-                "PVC Cellular Core Pipe",
-                "PVC Pipe"
+                "ABS Solid Core Pipe",
+                "ABS Cellular Core Pipe",
+                "ABS Pipe"
             ],
             "90s": [
                 "90m",
@@ -140,9 +140,9 @@
         },
         "4\"": {
             "Pipe": [
-                "PVC Solid Core Pipe",
-                "PVC Cellular Core Pipe",
-                "PVC Pipe"
+                "ABS Solid Core Pipe",
+                "ABS Cellular Core Pipe",
+                "ABS Pipe"
             ],
             "90s": [
                 "90m",
@@ -194,9 +194,9 @@
         },
         "6\"": {
             "Pipe": [
-                "PVC Solid Core Pipe",
-                "PVC Cellular Core Pipe",
-                "PVC Pipe"
+                "ABS Solid Core Pipe",
+                "ABS Cellular Core Pipe",
+                "ABS Pipe"
             ],
             "90s": [
                 "90m",
@@ -245,9 +245,9 @@
         },
         "8\"": {
             "Pipe": [
-                "PVC Solid Core Pipe",
-                "PVC Cellular Core Pipe",
-                "PVC Pipe"
+                "ABS Solid Core Pipe",
+                "ABS Cellular Core Pipe",
+                "ABS Pipe"
             ],
             "90s": [
                 "90m",
@@ -299,9 +299,9 @@
         },
         "10\"": {
             "Pipe": [
-                "PVC Solid Core Pipe",
-                "PVC Cellular Core Pipe",
-                "PVC Pipe"
+                "ABS Solid Core Pipe",
+                "ABS Cellular Core Pipe",
+                "ABS Pipe"
             ],
             "90s": [
                 "90m",
@@ -357,9 +357,9 @@
         },
         "12\"": {
             "Pipe": [
-                "PVC Solid Core Pipe",
-                "PVC Cellular Core Pipe",
-                "PVC Pipe"
+                "ABS Solid Core Pipe",
+                "ABS Cellular Core Pipe",
+                "ABS Pipe"
             ],
             "90s": [
                 "90m",
@@ -416,19 +416,7 @@
             "Items": [
                 "Coupling"
             ]
-        },
-        "Miscellaneous": [
-            "Washer Box",
-            "Glue",
-            "Primer",
-            "Nails",
-            "Strap",
-            "1-1/2\" Screws",
-            "1-3/4\" Screws",
-            "2\" Screws",
-            "2-1/2\" Screws",
-            "3\" Screws"
-        ]
+        }
     },
     "PVC": {
         "1-1/2\"": {
@@ -847,18 +835,6 @@
             "Items": [
                 "Coupling"
             ]
-        },
-        "Miscellaneous": [
-            "Washer Box",
-            "Glue",
-            "Primer",
-            "Nails",
-            "Strap",
-            "1-1/2\" Screws",
-            "1-3/4\" Screws",
-            "2\" Screws",
-            "2-1/2\" Screws",
-            "3\" Screws"
-        ]
+        }
     }
 }

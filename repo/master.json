@@ -1,4 +1,435 @@
 {
+    "ABS": {
+        "1-1/2\"": {
+            "Pipe": [
+                "PVC Solid Core Pipe",
+                "PVC Cellular Core Pipe",
+                "PVC Pipe"
+            ],
+            "90s": [
+                "90m",
+                "90L",
+                "90st"
+            ],
+            "45s": [
+                "45reg",
+                "45st"
+            ],
+            "22s": [
+                "22reg",
+                "22st"
+            ],
+            "Tees": [
+                "Tee",
+                "Tee Street",
+                "Tap Tee"
+            ],
+            "Wyes": [
+                "Wye",
+                "Combo"
+            ],
+            "Caps": [
+                "Test Cap",
+                "Glue Cap",
+                "Tap Tee Plug"
+            ],
+            "Items": [
+                "Trap",
+                "Partition Cross",
+                "Coupling"
+            ]
+        },
+        "2\"": {
+            "Pipe": [
+                "PVC Solid Core Pipe",
+                "PVC Cellular Core Pipe",
+                "PVC Pipe"
+            ],
+            "90s": [
+                "90m",
+                "90L",
+                "90st"
+            ],
+            "45s": [
+                "45reg",
+                "45st"
+            ],
+            "22s": [
+                "22reg",
+                "22st"
+            ],
+            "Tees": [
+                "Tee",
+                "Tee Street",
+                "Tap Tee",
+                "2 x 1- 1/2\" Tee",
+                "2 x 1- 1/2 x 1- 1/2\" Tee",
+                "2 x 1- 1/2 x 2\" Tee"
+            ],
+            "Wyes": [
+                "Wye",
+                "2 x 1- 1/2\" Wye"
+            ],
+            "Combos": [
+                "Combo",
+                "2 x 1- 1/2\" Combo"
+            ],
+            "Caps": [
+                "Test Cap",
+                "Glue Cap",
+                "Tap Tee Plug"
+            ],
+            "Partition Crosses": [
+                "P- Cross",
+                "2 x 1- 1/2\" P- Cross"
+            ],
+            "Items": [
+                "2 x 1- 1/2\" Bushing",
+                "Trap",
+                "Coupling"
+            ]
+        },
+        "3\"": {
+            "Pipe": [
+                "PVC Solid Core Pipe",
+                "PVC Cellular Core Pipe",
+                "PVC Pipe"
+            ],
+            "90s": [
+                "90m",
+                "90L",
+                "90st",
+                "HO90"
+            ],
+            "45s": [
+                "45reg",
+                "45st"
+            ],
+            "22s": [
+                "22reg",
+                "22st"
+            ],
+            "Tees": [
+                "Tee",
+                "Tee Street",
+                "Tap Tee",
+                "3 x 2\" Tee"
+            ],
+            "Wyes": [
+                "Wye",
+                "3 x 2\" Wye"
+            ],
+            "Combos": [
+                "Combo",
+                "3 x 2\" Combo"
+            ],
+            "Caps": [
+                "Test Cap",
+                "Glue Cap",
+                "Tap Tee Plug"
+            ],
+            "Partition Crosses": [
+                "P- Cross",
+                "3 x 2\" P- Cross"
+            ],
+            "Items": [
+                "Trap",
+                "3 x 2\" Bushing",
+                "Coupling"
+            ]
+        },
+        "4\"": {
+            "Pipe": [
+                "PVC Solid Core Pipe",
+                "PVC Cellular Core Pipe",
+                "PVC Pipe"
+            ],
+            "90s": [
+                "90m",
+                "90L",
+                "90st"
+            ],
+            "45s": [
+                "45reg",
+                "45st"
+            ],
+            "22s": [
+                "22reg",
+                "22st"
+            ],
+            "Tees": [
+                "Tee",
+                "Tap Tee",
+                "4 x 3\" Tee",
+                "4 x 2\" Tee"
+            ],
+            "Wyes": [
+                "Wye",
+                "4 x 3\" Wye",
+                "4 x 2\" Wye"
+            ],
+            "Combos": [
+                "Combo",
+                "4 x 3\" Combo",
+                "4 x 2\" Combo"
+            ],
+            "Caps": [
+                "Test Cap",
+                "Glue Cap",
+                "Tap Tee Plug"
+            ],
+            "Bushings": [
+                "4 x 3\" Bushing",
+                "4 x 2\" Bushing"
+            ],
+            "Partition Crosses": [
+                "P- Cross",
+                "4 x 3\" P- Cross",
+                "4 x 2\" P- Cross"
+            ],
+            "Items": [
+                "Trap",
+                "Coupling"
+            ]
+        },
+        "6\"": {
+            "Pipe": [
+                "PVC Solid Core Pipe",
+                "PVC Cellular Core Pipe",
+                "PVC Pipe"
+            ],
+            "90s": [
+                "90m",
+                "90L",
+                "90st"
+            ],
+            "45s": [
+                "45reg",
+                "45st"
+            ],
+            "22s": [
+                "22reg",
+                "22st"
+            ],
+            "Tees": [
+                "Tee",
+                "6 x 4\" Tee",
+                "6 x 3\" Tee",
+                "6 x 2\" Tee"
+            ],
+            "Wyes": [
+                "Wye",
+                "6 x 4\" Wye",
+                "6 x 3\" Wye",
+                "6 x 2\" Wye"
+            ],
+            "Combos": [
+                "Combo",
+                "6 x 4\" Combo",
+                "6 x 3\" Combo",
+                "6 x 2\" Combo"
+            ],
+            "Caps": [
+                "Test Cap",
+                "Glue Cap"
+            ],
+            "Bushings": [
+                "6 x 4\" Bushing",
+                "6 x 3\" Bushing",
+                "6 x 2\" Bushing"
+            ],
+            "Items": [
+                "Trap",
+                "Coupling"
+            ]
+        },
+        "8\"": {
+            "Pipe": [
+                "PVC Solid Core Pipe",
+                "PVC Cellular Core Pipe",
+                "PVC Pipe"
+            ],
+            "90s": [
+                "90m",
+                "90L",
+                "90st"
+            ],
+            "45s": [
+                "45reg",
+                "45st"
+            ],
+            "22s": [
+                "22reg",
+                "22st"
+            ],
+            "Tees": [
+                "Tee",
+                "8 x 6\" Tee",
+                "8 x 4\" Tee",
+                "8 x 3\" Tee",
+                "8 x 2\" Tee"
+            ],
+            "Wyes": [
+                "Wye",
+                "8 x 6\" Wye",
+                "8 x 4\" Wye",
+                "8 x 3\" Wye",
+                "8 x 2\" Wye"
+            ],
+            "Combos": [
+                "Combo",
+                "8 x 6\" Combo",
+                "8 x 4\" Combo",
+                "8 x 3\" Combo",
+                "8 x 2\" Combo"
+            ],
+            "Caps": [
+                "Test Cap",
+                "Glue Cap"
+            ],
+            "Bushings": [
+                "8 x 6\" Bushing",
+                "8 x 4\" Bushing",
+                "8 x 3\" Bushing",
+                "8 x 2\" Bushing"
+            ],
+            "Items": [
+                "Coupling"
+            ]
+        },
+        "10\"": {
+            "Pipe": [
+                "PVC Solid Core Pipe",
+                "PVC Cellular Core Pipe",
+                "PVC Pipe"
+            ],
+            "90s": [
+                "90m",
+                "90L",
+                "90st"
+            ],
+            "45s": [
+                "45reg",
+                "45st"
+            ],
+            "22s": [
+                "22reg",
+                "22st"
+            ],
+            "Tees": [
+                "Tee",
+                "10 x 8\" Tee",
+                "10 x 6\" Tee",
+                "10 x 4\" Tee",
+                "10 x 3\" Tee",
+                "10 x 2\" Tee"
+            ],
+            "Wyes": [
+                "Wye",
+                "10 x 8\" Wye",
+                "10 x 6\" Wye",
+                "10 x 4\" Wye",
+                "10 x 3\" Wye",
+                "10 x 2\" Wye"
+            ],
+            "Combos": [
+                "Combo",
+                "10 x 8\" Combo",
+                "10 x 6\" Combo",
+                "10 x 4\" Combo",
+                "10 x 3\" Combo",
+                "10 x 2\" Combo"
+            ],
+            "Caps": [
+                "Test Cap",
+                "Glue Cap"
+            ],
+            "Bushings": [
+                "10 x 8\" Bushing",
+                "10 x 6\" Bushing",
+                "10 x 4\" Bushing",
+                "10 x 3\" Bushing",
+                "10 x 2\" Bushing"
+            ],
+            "Items": [
+                "Coupling"
+            ]
+        },
+        "12\"": {
+            "Pipe": [
+                "PVC Solid Core Pipe",
+                "PVC Cellular Core Pipe",
+                "PVC Pipe"
+            ],
+            "90s": [
+                "90m",
+                "90L",
+                "90st"
+            ],
+            "45s": [
+                "45reg",
+                "45st"
+            ],
+            "22s": [
+                "22reg",
+                "22st"
+            ],
+            "Tees": [
+                "Tee",
+                "12 x 10\" Tee",
+                "12 x 8\" Tee",
+                "12 x 6\" Tee",
+                "12 x 4\" Tee",
+                "12 x 3\" Tee",
+                "12 x 2\" Tee"
+            ],
+            "Wyes": [
+                "Wye",
+                "12 x 10\" Wye",
+                "12 x 8\" Wye",
+                "12 x 6\" Wye",
+                "12 x 4\" Wye",
+                "12 x 3\" Wye",
+                "12 x 2\" Wye"
+            ],
+            "Combos": [
+                "Combo",
+                "12 x 10\" Combo",
+                "12 x 8\" Combo",
+                "12 x 6\" Combo",
+                "12 x 4\" Combo",
+                "12 x 3\" Combo",
+                "12 x 2\" Combo"
+            ],
+            "Caps": [
+                "Test Cap",
+                "Glue Cap"
+            ],
+            "Bushings": [
+                "12 x 10\" Bushing",
+                "12 x 8\" Bushing",
+                "12 x 6\" Bushing",
+                "12 x 4\" Bushing",
+                "12 x 3\" Bushing",
+                "12 x 2\" Bushing"
+            ],
+            "Items": [
+                "Coupling"
+            ]
+        },
+        "Miscellaneous": [
+            "Washer Box",
+            "Glue",
+            "Primer",
+            "Nails",
+            "Strap",
+            "1-1/2\" Screws",
+            "1-3/4\" Screws",
+            "2\" Screws",
+            "2-1/2\" Screws",
+            "3\" Screws"
+        ]
+    },
     "PVC": {
         "1-1/2\"": {
             "Pipe": [

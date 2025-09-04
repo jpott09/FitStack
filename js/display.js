@@ -81,7 +81,10 @@ export class Display{
                 let compareSize = lastSize.replace(/"/g, "");
                 // if displayName starts with lastSize (remove the double quotes before compare) then we don't add lastSize
                 if(!displayName.startsWith(compareSize)){
-                    displayName = `${lastSize} ${this.dataManager.getCategoryName()} ${item}`;
+                    // insert category but only if the category name is not already present
+                    if(!displayName.includes(this.dataManager.getCategoryName())){
+                        displayName = `${lastSize} ${this.dataManager.getCategoryName()} ${item}`;
+                    }
                 }
                 else{
                     // if displayName contains a size, we need to insert the category name

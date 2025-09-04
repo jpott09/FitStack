@@ -9,7 +9,9 @@ export class DataManager{
     }
     getCategoryName(){
         // returns the first element of the path, or empty string
-        return this.path.length > 0 ? this.path[0] : "";
+        let retString = this.path.length > 0 ? this.path[0] : "";
+        console.log(`DataManager.getCategoryName() called\nReturning: ${retString}`);
+        return retString;
     }
     _getNode(pathArray){
         let current = this.data;

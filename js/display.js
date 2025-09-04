@@ -85,9 +85,12 @@ export class Display{
                 }
                 else{
                     // if displayName contains a size, we need to insert the category name
-                    let lastQuoteIndex = displayName.lastIndexOf("\"");
-                    if(lastQuoteIndex !== -1){
-                        displayName = `${displayName.slice(0, lastQuoteIndex)}\" ${this.dataManager.getCategoryName()} ${displayName.slice(lastQuoteIndex + 1)}`;
+                    // but only if the category name is not already present
+                    if(!displayName.includes(this.dataManager.getCategoryName())){
+                        let lastQuoteIndex = displayName.lastIndexOf("\"");
+                        if(lastQuoteIndex !== -1){
+                            displayName = `${displayName.slice(0, lastQuoteIndex)}\" ${this.dataManager.getCategoryName()} ${displayName.slice(lastQuoteIndex + 1)}`;
+                        }
                     }
                 }
             }

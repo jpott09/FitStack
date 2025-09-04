@@ -76,13 +76,19 @@ export class Display{
         });
         items.forEach(item => {
             const lastSize = this.dataManager.getSize();
-            // if item starts with lastSize (remove the double quotes before compare) then we don't add lastSize
             let displayName = item;
-            
             if(lastSize){
                 let compareSize = lastSize.replace(/"/g, "");
+                // if displayName starts with lastSize (remove the double quotes before compare) then we don't add lastSize
                 if(!displayName.startsWith(compareSize)){
-                    displayName = `${lastSize} ${item}`;
+                    displayName = `${lastSize} ${this.dataManager.getCategoryName()} ${item}`;
+                }
+                else{
+                    // if displayName contains a size, we need to insert the category name
+                    let lastQuoteIndex = displayName.lastIndexOf("\"");
+                    if(lastQuoteIndex !== -1){
+                        displayName = `${displayName.slice(0, lastQuoteIndex)}\" ${this.dataManager.getCategoryName()} ${displayName.slice(lastQuoteIndex + 1)}`;
+                    }
                 }
             }
             const itemElement = this._itemElement(displayName);

@@ -163,14 +163,18 @@ div{
     font-size: 16px;
     font-weight: 600;
     cursor: pointer;
-    background-color: #8df4ff;
-    color: rgb(24, 24, 24);
+    background-color: #0038a8;
+    color: rgb(255, 255, 255);
     border-radius: 5px;
     padding: 8px 12px;
     min-height: 56px;
     /* make it actually take 60% */
     flex: 0 0 70%;
     width: auto;
+}
+.listItemElementClicked {
+    background-color: #272727;
+    color: rgb(228, 228, 228);
 }
 .listManagementDiv {
     display: flex;
@@ -193,10 +197,6 @@ div{
     flex: 0 0 47%;
     width: auto;
 }
-.listItemElementClicked {
-    background-color: #0038a8;
-    color: rgb(255, 255, 255);
-}
 .listItemQuantityElement {
     cursor: pointer;
     min-height: 56px;
@@ -210,8 +210,8 @@ div{
 
 }
 .listItemPlusElement {
-    background-color: #83ff73;
-    color: #000;
+    background-color: #0b6000;
+    color: #ffffff;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
 }
@@ -219,8 +219,8 @@ div{
     font-size: 16px;
     font-weight: 600;
     cursor: pointer;
-    background-color: #ffffff;
-    color: rgb(0, 0, 0);
+    background-color: #0038a8;
+    color: rgb(255, 255, 255);
     border-radius: 5px;
     padding: 8px 12px;
     min-height: 56px;

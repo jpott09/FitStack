@@ -1,0 +1,243 @@
+html,body {
+    height: 100%;
+    overflow: hidden;
+    overscroll-behavior: none;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    background: radial-gradient(circle at center, #000000 0%, #101720 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+/* div styles */
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 85%;
+    /*border: solid 1px orange;*/
+}
+.headerDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    height: 10svh;
+}
+.bodyDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+    min-height: 0;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    scrollbar-width: none; /* Firefox */
+}
+.bodyDiv::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+}
+/* General element styles */
+.element {
+    all: unset;
+    cursor: pointer;
+    text-align: center;
+
+    /* sizing */
+    flex: 0 0 10%;
+    height: 10%;
+    min-height: 56px;
+    width: 100%;
+    margin-top: 12px;
+
+    /* type */
+    font-size: 18px;
+    font-weight: 600;
+
+    /* shape & fill */
+    border-radius: 9999px;              /* pill, avoids VW artifacts */
+    background-clip: padding-box;
+    background-image: linear-gradient(to bottom,
+        rgba(255,255,255,0.06), rgba(0,0,0,0.12));
+
+    /* shadows */
+    box-shadow:
+      inset 0 -3px 6px rgba(0,0,0,0.35),   /* inner */
+      0 12px 20px -12px rgba(0,0,0,0.55);  /* outer, trimmed -> no corner plate */
+    /* no filter: drop-shadow */
+
+    /* mobile quirks */
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+    -webkit-appearance: none;
+    appearance: none;
+    -webkit-user-select: none;
+    user-select: none;
+    touch-action: manipulation;
+}
+.element:focus { outline: none; }
+.pathElement {
+    flex: 0 1 auto;
+    height: 80%;
+    background-color: rgb(29, 60, 114);
+    color: rgb(255, 255, 255);
+    margin-bottom: 25px;
+    margin-right: 0;
+    margin-left: 0;
+    --offset: 20px;
+    clip-path: polygon(var(--offset) 0, 100% 0, calc(100% - var(--offset)) 100%, 0 100%);
+    /*border: 1px solid white;*/
+    border-radius: 0px;
+}
+.backElement {
+    background-color: #ff8800;
+    color: rgb(0, 0, 0);
+}
+.categoryElement {
+    background-color: #0038a8;
+    color: rgb(255, 255, 255);
+}
+.itemElement {
+    background-color: #00f2ff;
+    color: rgb(0, 0, 0);
+}
+.plusElement {
+    background-color: #83ff73;
+    color: rgb(0, 0, 0);
+}
+.quantityElement {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+.minusElement {
+    background-color: #660000;
+    color: rgb(255, 255, 255);
+}
+.acceptElement {
+    background-color: #00d251;
+    color: rgb(0, 0, 0);
+}
+.horizontalDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    height: 18svh;
+    width: 100%;
+}
+.horizontalElement {
+    flex: 0 1 auto;
+    border-radius: 0;
+    --offset: 10px;
+    clip-path: polygon(var(--offset) 0, 100% 0, calc(100% - var(--offset)) 100%, 0 100%);
+    margin-right: 0;
+    margin-left: 0;
+    width: 100%;
+    height: 80%;
+}
+.infoElement {
+    background-color: #d4d4d4;
+    color: rgb(24, 24, 24);
+    border-radius: 15px;
+}
+/* list items */
+.listItemDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    width: 100%;
+    margin-top: 12px;
+}
+.listItemElement {
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: #8df4ff;
+    color: rgb(24, 24, 24);
+    border-radius: 5px;
+    padding: 8px 12px;
+    min-height: 56px;
+    /* make it actually take 60% */
+    flex: 0 0 70%;
+    width: auto;
+}
+.listManagementDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 12px;
+}
+.listLoadingElement {
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: #ff8800;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 8px 12px;
+    min-height: 56px;
+    /* make it actually take 60% */
+    flex: 0 0 47%;
+    width: auto;
+}
+.listItemElementClicked {
+    background-color: #0038a8;
+    color: rgb(255, 255, 255);
+}
+.listItemQuantityElement {
+    cursor: pointer;
+    min-height: 56px;
+    width: 15%;
+}
+.listItemMinusElement {
+    background-color: #660000;
+    color: #fff;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+
+}
+.listItemPlusElement {
+    background-color: #83ff73;
+    color: #000;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.savedListNameElement {
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 8px 12px;
+    min-height: 56px;
+    /* make it actually take 60% */
+    flex: 0 0 85%;
+    width: auto;
+}
+.savedListDeleteElement {
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: #d30000;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 8px 12px;
+    min-height: 56px;
+    /* make it actually take 60% */
+    flex: 0 0 15%;
+    width: auto;
+}

@@ -63,6 +63,19 @@ export class Display{
             }else{
                 this.bodyDiv.appendChild(this._listElement());
             }
+        }else if (filter == "back"){
+            // re-ordering 'back logic' to put all the display logic here
+            if(this.dataManager.getPath().length === 0){
+                this.displayBody();
+                return;
+            }
+            [categories, items] = this.dataManager.back();
+            if(categories === null){this.displayPath(); return;}
+            // show back if path, else list
+            if(this.dataManager.getPath().length > 0){
+                this.bodyDiv.appendChild(this._backElement());
+            }
+
         }else{
             // added check here for null, null, and defaults to root path display if so
             [categories, items] = this.dataManager.select(filter) || [null,null];
@@ -337,6 +350,8 @@ export class Display{
         return backButton;
     }
     _backLogic(){
+        this.displayBody("back");
+        /*
         this.clearBodyDiv();
         let categories = [];
         let items = [];
@@ -345,7 +360,7 @@ export class Display{
             this.displayBody();
             return;
         }
-        // END
+        // END GUARD
         [categories, items] = this.dataManager.back();
         this.displayPath();
         // determine if we add a back button
@@ -374,6 +389,7 @@ export class Display{
             const itemElement = this._itemElement(displayName);
             this.bodyDiv.appendChild(itemElement);
         });
+        */
     }
     _categoryElement(name){
         const categoryButton = this.document.createElement("button");

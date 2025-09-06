@@ -65,16 +65,13 @@ export class Display{
             }
         }else if (filter == "back"){
             // re-ordering 'back logic' to put all the display logic here
-            if(this.dataManager.getPath().length === 0){
-                this.displayBody();
-                return;
-            }
             [categories, items] = this.dataManager.back();
-            if(categories === null){this.displayPath(); return;}
-            // show back if path, else list
             if(this.dataManager.getPath().length > 0){
                 this.bodyDiv.appendChild(this._backElement());
+            }else{
+                this.bodyDiv.appendChild(this._listElement());
             }
+            
 
         }else{
             // added check here for null, null, and defaults to root path display if so

@@ -419,60 +419,6 @@
         }
     },
     "Corzan": {
-        "6\"": {
-            "Pipe": [
-                "Corzan Pipe"
-            ],
-            "Adapters": [
-                "Female Adapter",
-                "Male Adapter"
-            ],
-            "Items": [
-                "Cap",
-                "Tee",
-                "90",
-                "45",
-                "Coupling",
-                "Flange",
-                "Union"
-            ]
-        },
-        "8\"": {
-            "Pipe": [
-                "Corzan Pipe"
-            ],
-            "Adapters": [
-                "Female Adapter",
-                "Male Adapter"
-            ],
-            "Items": [
-                "Cap",
-                "Tee",
-                "90",
-                "45",
-                "Coupling",
-                "Flange",
-                "Union"
-            ]
-        },
-        "10\"": {
-            "Pipe": [
-                "Corzan Pipe"
-            ],
-            "Adapters": [
-                "Female Adapter",
-                "Male Adapter"
-            ],
-            "Items": [
-                "Cap",
-                "Tee",
-                "90",
-                "45",
-                "Coupling",
-                "Flange",
-                "Union"
-            ]
-        },
         "1/2\"": {
             "Pipe": [
                 "Corzan Pipe"
@@ -634,6 +580,60 @@
                 "Flange",
                 "Union"
             ]
+        },
+        "6\"": {
+            "Pipe": [
+                "Corzan Pipe"
+            ],
+            "Adapters": [
+                "Female Adapter",
+                "Male Adapter"
+            ],
+            "Items": [
+                "Cap",
+                "Tee",
+                "90",
+                "45",
+                "Coupling",
+                "Flange",
+                "Union"
+            ]
+        },
+        "8\"": {
+            "Pipe": [
+                "Corzan Pipe"
+            ],
+            "Adapters": [
+                "Female Adapter",
+                "Male Adapter"
+            ],
+            "Items": [
+                "Cap",
+                "Tee",
+                "90",
+                "45",
+                "Coupling",
+                "Flange",
+                "Union"
+            ]
+        },
+        "10\"": {
+            "Pipe": [
+                "Corzan Pipe"
+            ],
+            "Adapters": [
+                "Female Adapter",
+                "Male Adapter"
+            ],
+            "Items": [
+                "Cap",
+                "Tee",
+                "90",
+                "45",
+                "Coupling",
+                "Flange",
+                "Union"
+            ]
         }
     },
     "CPVC": {
@@ -678,68 +678,6 @@
         }
     },
     "PVC": {
-        "12\"": {
-            "Pipe": [
-                "PVC Solid Core Pipe",
-                "PVC Cellular Core Pipe",
-                "PVC Pipe"
-            ],
-            "90s": [
-                "90m",
-                "90L",
-                "90st"
-            ],
-            "45s": [
-                "45reg",
-                "45st"
-            ],
-            "22s": [
-                "22reg",
-                "22st"
-            ],
-            "Tees": [
-                "Tee",
-                "12 x 10\" Tee",
-                "12 x 8\" Tee",
-                "12 x 6\" Tee",
-                "12 x 4\" Tee",
-                "12 x 3\" Tee",
-                "12 x 2\" Tee"
-            ],
-            "Wyes": [
-                "Wye",
-                "12 x 10\" Wye",
-                "12 x 8\" Wye",
-                "12 x 6\" Wye",
-                "12 x 4\" Wye",
-                "12 x 3\" Wye",
-                "12 x 2\" Wye"
-            ],
-            "Combos": [
-                "Combo",
-                "12 x 10\" Combo",
-                "12 x 8\" Combo",
-                "12 x 6\" Combo",
-                "12 x 4\" Combo",
-                "12 x 3\" Combo",
-                "12 x 2\" Combo"
-            ],
-            "Caps": [
-                "Test Cap",
-                "Glue Cap"
-            ],
-            "Bushings": [
-                "12 x 10\" Bushing",
-                "12 x 8\" Bushing",
-                "12 x 6\" Bushing",
-                "12 x 4\" Bushing",
-                "12 x 3\" Bushing",
-                "12 x 2\" Bushing"
-            ],
-            "Items": [
-                "Coupling"
-            ]
-        },
         "1\"": {
             "Pipe": [
                 "PVC Solid Core Pipe",
@@ -1061,6 +999,60 @@
                 "Coupling"
             ]
         },
+        "8\"": {
+            "Pipe": [
+                "PVC Solid Core Pipe",
+                "PVC Cellular Core Pipe",
+                "PVC Pipe"
+            ],
+            "90s": [
+                "90m",
+                "90L",
+                "90st"
+            ],
+            "45s": [
+                "45reg",
+                "45st"
+            ],
+            "22s": [
+                "22reg",
+                "22st"
+            ],
+            "Tees": [
+                "Tee",
+                "8 x 6\" Tee",
+                "8 x 4\" Tee",
+                "8 x 3\" Tee",
+                "8 x 2\" Tee"
+            ],
+            "Wyes": [
+                "Wye",
+                "8 x 6\" Wye",
+                "8 x 4\" Wye",
+                "8 x 3\" Wye",
+                "8 x 2\" Wye"
+            ],
+            "Combos": [
+                "Combo",
+                "8 x 6\" Combo",
+                "8 x 4\" Combo",
+                "8 x 3\" Combo",
+                "8 x 2\" Combo"
+            ],
+            "Caps": [
+                "Test Cap",
+                "Glue Cap"
+            ],
+            "Bushings": [
+                "8 x 6\" Bushing",
+                "8 x 4\" Bushing",
+                "8 x 3\" Bushing",
+                "8 x 2\" Bushing"
+            ],
+            "Items": [
+                "Coupling"
+            ]
+        },
         "10\"": {
             "Pipe": [
                 "PVC Solid Core Pipe",
@@ -1114,6 +1106,68 @@
                 "10 x 4\" Bushing",
                 "10 x 3\" Bushing",
                 "10 x 2\" Bushing"
+            ],
+            "Items": [
+                "Coupling"
+            ]
+        },
+        "12\"": {
+            "Pipe": [
+                "PVC Solid Core Pipe",
+                "PVC Cellular Core Pipe",
+                "PVC Pipe"
+            ],
+            "90s": [
+                "90m",
+                "90L",
+                "90st"
+            ],
+            "45s": [
+                "45reg",
+                "45st"
+            ],
+            "22s": [
+                "22reg",
+                "22st"
+            ],
+            "Tees": [
+                "Tee",
+                "12 x 10\" Tee",
+                "12 x 8\" Tee",
+                "12 x 6\" Tee",
+                "12 x 4\" Tee",
+                "12 x 3\" Tee",
+                "12 x 2\" Tee"
+            ],
+            "Wyes": [
+                "Wye",
+                "12 x 10\" Wye",
+                "12 x 8\" Wye",
+                "12 x 6\" Wye",
+                "12 x 4\" Wye",
+                "12 x 3\" Wye",
+                "12 x 2\" Wye"
+            ],
+            "Combos": [
+                "Combo",
+                "12 x 10\" Combo",
+                "12 x 8\" Combo",
+                "12 x 6\" Combo",
+                "12 x 4\" Combo",
+                "12 x 3\" Combo",
+                "12 x 2\" Combo"
+            ],
+            "Caps": [
+                "Test Cap",
+                "Glue Cap"
+            ],
+            "Bushings": [
+                "12 x 10\" Bushing",
+                "12 x 8\" Bushing",
+                "12 x 6\" Bushing",
+                "12 x 4\" Bushing",
+                "12 x 3\" Bushing",
+                "12 x 2\" Bushing"
             ],
             "Items": [
                 "Coupling"

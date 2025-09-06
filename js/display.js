@@ -151,6 +151,8 @@ export class Display{
         this.bodyDiv.appendChild(buttonDiv);
         // display info panel to show name and 'items'
         this.bodyDiv.appendChild(infoElement);
+        // copy to clipboard button
+        this.bodyDiv.appendChild(this._clipboardElement(this.list.getItems()));
         const items = this.list.getItems();
         if(Object.keys(items).length < 1){
             this.bodyDiv.appendChild(this._infoElement("No items in list"));
@@ -159,6 +161,10 @@ export class Display{
                 const quantity = items[item];
                 this.bodyDiv.appendChild(this._listItemElement(item, quantity, infoElement));
             }
+        }
+        // delete list button if items > 0
+        if(Object.keys(items).length > 0){
+            this.bodyDiv.appendChild(this._clearListElement());
         }
     }
     displaySavedLists(){
@@ -178,6 +184,45 @@ export class Display{
     // --------------------------------------------------
     // ELEMENTS
     // --------------------------------------------------
+    _clearListElement(){
+        const clearElement = this.document.createElement("button");
+        clearElement.type = "button";
+        clearElement.innerText = "Clear List";
+        clearElement.classList.add("element");
+        clearElement.classList.add("backElement");
+        clearElement.addEventListener("click", this._clearListLogic.bind(this));
+        return clearElement;
+    }
+    _clearListLogic(){
+        const confirmClear = window.confirm("Are you sure you want to clear the current list?");
+        if (confirmClear) {
+            this.list.clearList();
+            this.displayList();
+        }
+    }
+    _clipboardElement(list){
+        const clipboardElement = this.document.createElement("button");
+        clipboardElement.type = "button";
+        clipboardElement.innerText = "Copy to Clipboard";
+        clipboardElement.classList.add("element");
+        clipboardElement.classList.add("backElement");
+        clipboardElement.addEventListener("click", this._clipboardLogic.bind(this,list,clipboardElement));
+        return clipboardElement;
+    }
+    _clipboardLogic(list,element){
+        let output = "";
+        for (const item in list) {
+            const quantity = list[item];
+            output += `(${quantity}) ${item}\n`;
+        }
+        navigator.clipboard.writeText(output).then(() => {
+            element.innerText = "Copied!";
+            console.log("Copied to clipboard");
+        }, (err) => {
+            element.innerText = "Error Copying";
+            console.error("Failed to copy: ", err);
+        });
+    }
     _infoElement(text){
         const infoElement = this.document.createElement("button");
         infoElement.type = "button";

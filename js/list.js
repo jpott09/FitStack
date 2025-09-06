@@ -49,6 +49,11 @@ export class List{
         }
         localStorage.setItem(this.name, JSON.stringify(this.items));
     }
+    clearList(){
+        this.items = {};
+        this.loadedListName = this.defaultName;
+        localStorage.setItem(this.name, JSON.stringify(this.items));
+    }
     getItems(){
         // sort items by the first character only
         const sortedItems = Object.entries(this.items).sort(([a], [b]) => a.localeCompare(b));
